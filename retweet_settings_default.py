@@ -1,0 +1,9 @@
+'''Settings file for retweet-server.py'''
+
+TWITTER_CONSUMER_KEY = ""
+TWITTER_CONSUMER_SECRET = ""
+TWITTER_ACCESS_TOKEN = ""
+TWITTER_ACCESS_TOKEN_SECRET =""
+
+SERVER_PORT = 5000
+PRICE = 1000 # In satoshis
