@@ -53,3 +53,11 @@ Server starting, to purchase a retweet from any 21BC1 use:
 -----
  * Running on http://10.154.174.52:5000/ (Press CTRL+C to quit)
 ```
+
+# Todo
+
+If you would like to improve on this here are some suggestions:
+- [ ] Error handling
+  - Needs to handle network errors, Twitter API errors (like rate limiting), etc
+- [ ] Endpoint for server details
+  - Would be nice to have an API endpoint like `/details` that returns some basic information about the retweet server such as what Twitter account is being used and maybe how many followers it has.
