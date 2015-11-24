@@ -23,7 +23,7 @@ def retweet(tweet_id):
     return "Successfully retweeted by https://twitter.com/%s" % screen_name
 
 if __name__ == '__main__':
-    zt_ip = os.popen('ifconfig zt0 | grep "inet\ addr" | cut -d: -f2 | cut -d" " -f1').read().strip()
+    zt_ip = os.popen('/sbin/ifconfig zt0 | grep "inet\ addr" | cut -d: -f2 | cut -d" " -f1').read().strip()
     print("-----")
     print("Server starting, to purchase a retweet from any 21BC1 use:")
     print("21 buy --maxprice {price} url http://{ip}:{port}/retweet/TWEETID".format(
