@@ -6,6 +6,8 @@ Sell retweets on Twitter using the 21 Bitcoin Computer.
 
 You can see an example of this in action on [Twitter @21_retweet](https://twitter.com/21_retweet).
 To purchase a retweet on your 21BC use:
+
+*To use the example your 21BC1 must be connected the [21 Network](https://21.co/learn/introduction-to-the-21-bitcoin-computer/#join-the-peer-to-peer-network)*
 ```
 21 buy --maxprice 1000 url http://21.justinguy.com/retweet/TWEETID
 ```
