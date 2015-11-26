@@ -63,3 +63,6 @@ If you would like to improve on this here are some suggestions:
   - Needs to handle network errors, Twitter API errors (like rate limiting), etc
 - [ ] Endpoint for server details
   - Would be nice to have an API endpoint like `/details` that returns some basic information about the retweet server such as what Twitter account is being used and maybe how many followers it has.
+ - [ ] Connection to BTC/USD price to manage PPP of RT price
+  - As bitcoin price moves up and down, a dynamic model to change the bitcoin output would be a great feature.
+
